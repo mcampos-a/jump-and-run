@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jump and Run</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jump and Run</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
+
+  <!-- Home Screen Overlay -->
+  <div id="home-screen"> 
+    <h1>Jump and Run</h1>
+    <p>
+      Tap the <strong>Screen</strong>, press <strong>Arrow Up</strong> or <strong>Space</strong> to jump.<br/>
+      Avoid obstacles and rack up points!
+    </p>
+    <button id="start-btn">Start Game</button>
+  </div>
+
+  <!-- Game Container (hidden until Start is clicked) -->
+  <div id="game-container" style="display: none;">
+    <button id="home-btn">Home</button>
 
     <div id="ground"></div>
     <div id="character"></div>
     <div class="obstacles"></div>
 
     <h2>Score: <span id="score">0</span></h2>
-    <script src="./js/script.js"></script>
+  </div>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
