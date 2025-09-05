@@ -1,5 +1,9 @@
 # Jump and Run
 
+![Jump-and-Run](https://github.com/user-attachments/assets/e5b02c1d-b3ae-4696-9719-679dca660191)
+
+
+
 A side scrolling game where you play as a black cat looking for a home in the deserts of Arizona. Avoid the incoming obstacles on the way.
 
 <!-- **[Profile]()** -->
