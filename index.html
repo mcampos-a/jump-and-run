@@ -10,7 +10,7 @@
 <body>
 
   <!-- Home Screen Overlay -->
-  <div id="home-screen"> 
+  <div id="home-screen" class="active"> 
     <h1>Jump and Run</h1>
     <p>
       Tap the <strong>Screen</strong>, press <strong>Arrow Up</strong> or <strong>Space</strong> to jump.<br/>
@@ -20,7 +20,7 @@
   </div>
 
   <!-- Game Container (hidden until Start is clicked) -->
-  <div id="game-container" style="display: none;">
+  <div id="game-container">
     <button id="home-btn">Home</button>
 
     <div id="ground"></div>
@@ -28,6 +28,16 @@
     <div class="obstacles"></div>
 
     <h2>Score: <span id="score">0</span></h2>
+
+    <!-- GAME OVER OVERLAY (hidden by default) -->
+    <div id="game-over">
+      <h1>Game Over</h1>
+      <p id="final-score">Your score: 0</p>
+      <div class="go-buttons">
+        <button id="restart-btn">Restart</button>
+        <button id="go-home-btn">Home</button>
+      </div>
+    </div>
   </div>
 
   <script src="./js/script.js"></script>
